@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Domine:wght@400;500;600;700&family=Exo+2:ital,wght@0,100;1,100;1,200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="imageCover">
+        <div class="container" id="container">
+            <div>
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIREBUQERASEhUQEhgQEhAXExAXEhIQFRUWFhcRFxcYHCggGBolGxUTITEhJTU3Oi8uFx8zODYsNyguLisBCgoKDg0OGhAQFy4mICItLTctLS4rMi4vLTIrLi4tLSstLS0tKy03MS03LS0tLTctKysvMS0wNzUtLS0vLS02N//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcDBAUCAQj/xABEEAABAwICBQgGBwYGAwAAAAABAAIDBBESIQUGMUFRB0JhcYGRktETIjJSodIjQ1NigpOxFBWissHTJHJzs8LxNIOj/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAEDBQQC/8QAMBEBAAIBAgQDBgUFAAAAAAAAAAECAwQREiExQRNRYRQyM0JxocHR4fDxFSKBkbH/2gAMAwEAAhEDEQA/ALxREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEXiWVrRic4NA2kkADtK4lXrlQR5Oq4iRuYS/8Akug7yKJnlG0d9s78qb5Vswa10NQcMdexjjsaS1jiegSDPsREpGij1bS1rfWhqRINuAtjBI6DYh3wXGZrpPC4sqKX0mH2hF6s46fQvNnjpa653NV0YbWjevNVOekTw25fX8+idIuboTTtPWR+kppWyAHC4DJ7He69pzY7oK6SqmNuUrhERQCIiAiIgIiICIiAiIgIiICIiAiIgIvhNlDNZNdAwmKls92wy7WtPBg5x6dnWgkml9MwUrcU0jW32N2vdb3WjMqB6U1+qJnGOihLL7H4Q+W3HD7Le265bNGPleZap7nOdmW3u8/5jzeofBSfRGhHubaNgjZxtYHp4uPSe9BE36Aqal2OrqT1FxkcOoXDW9hXRpNT6XYWySnpe4fCOyn9JoKJntXkPTkO5dKOMNFmgAcAAAggUeqFPb/wR2iUnvJWCq1GpHDOlfH0tdMPgSW/BWOiCraTRddo84qGoM8QzdRzWsRwY7YD1Ye3YpPS1FNpeA+qY5YjhfG4Wmp5PdcNpb+vQRlI6ijY/aM/eGRUV0vox9PM2sgBMsYw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6Z3i9gHv2KzgvMUYaA1oADRYAZAAbABwXtZuXLOS27Tw4ox12ERFUtEREBERAREQEREBERAREQF8IX1EFQ6eln0NpB9XCwvhkw/tMF8nxZBkzeDmi7b8QL+1cT6hraPStOXxObI1wwyMIGJt/q5Gbj/2FtaxaGbVR4cg9t8DiLjMWLHDe07CFSektXKmiqDJRPfTyt2wh2Fw/wBNzspGH3XfxLtikZ67x70df3+/+OWMvhW4L9O0/h9Y+8LFpNXKzRry6ge2WFzsT6OVzrZ745LEtPX2kqSUOn2uymgnp3b2yRkt7JGYmEdvYFVOjuVytgtHV07JnDaXB0EvWRhIv2Bd+LlmpyPWpJweh0RHeSFTOnyR2dHFCzo5A4XaQRxC9KrpuWWG30dHMT958bR3jEuHpDlbrJPVhihgvkDnI/sxWF+xI02SeyJyVhdUsrWguc4NAzLiQABxJKg+sXKZSwXZTf4mT3gbQg9L+d+G/WqvqjX1pDqmSQjaDM7AzrbHYX/C1bNNoiJmbiZXdN2xg9QN3dtupdWLRx83NyZtZWnf8zSOk6zST8cz7sacr3bBGeAAvd2fSexZ6OmDSGQtc57/AFcdvpHX5rWi+EdWfTuUk0RqpU1NnOHoowLBzm29X7kYtl3BWBoLV6CkH0bbuIs6V2b3eQ6ArsmfHijaOc+UdHLTHl1E79I856yjWq2oobaarALhm2Da1vAv4no2danbQvqLMy5bZJ3s08WGmKu1YERFWtEREBERAREQEREBERAREQEREBERAWhpTREVS3DK29tjhk5vUf6LfRTW01neJebUraNrRvCvtK6kS2IYY52bo5GtuB0B129osozVal29rR3gEtv/AJOsrnRdddbf5oiXFOgiPh3tX035KRi1VAPq6Of2x1Tv5iQutRar1X1dMIgd4bFF3kWKthF6nXT2rDz/AE+Z9/LaUAotQpHG80zW8WtBc4/iNgO4qT6L1apqexZGHO+0f6zr9F8m9i7CKjJqcl+sr8Wjw4uda8/OeYERFQ6hERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB//Z"
+                    class="logo" alt="no image">
+            </div>
+            <div class="topnav">
+                <a href="#home" style="--i:2;">Home</a>
+                <a href="#about" style="--i:3;">About</a>
+               
+                <a href="#contact" style="--i:4;"> Contact</a>
+            </div>
+
+        </div>
+
+        <!-- </div>
+    <div class="container"> -->
+        <!-- section2 -->
+        <!-- home page -->
+        <section id="home" class="home">
+            <div class="title">
+                <h1 >Welcome</h1>
+                <h2>I'm Athulya Np</h2>
+                <h5>Software Developer</h5>
+                <p>This is my official portfolio website to describe all <br>Details and work experiance in web
+                    development.</p>
+
+            </div>
+    </div>
+
+    </section>
+    <div class="container" id="">
+        <div class="heading">
+            <h1>About Me</h1>
+
+        </div>
+        <section class="about" id="about">
+           
+          <div class="aboutContent">
+                <div class="img">
+                    <img src="./img/2023_06_08_17_12_09.png" alt="no image">
+                </div>
+                <div class="about-text">
+                    <p>Hi there, I have always been interested in front-end development,and I have the neccessary skills required for the role.I have a good understanding of HTML ,CSS,JavaScript and React.Iam
+                    currently improving my development skill by learning various new technologies. </p>
+                    <div class="information">
+    
+                        <!-- box 1 -->
+                        <div class="info-box">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Athulya Np</span>
+                        </div>
+                        <!-- box 2 -->
+                        <div class="info-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8086435376</span>
+                        </div>
+                        <!-- box3 -->
+                        <div class="info-box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>athulyanp2014@gmail.com</span>
+                        </div>
+                      <div class="cvv">  <a href="./cv/Athulya.np_RESUME new(1).pdf" download="./cv/Athulya.np_RESUME new(1).pdf">Download cv</a></div>
+    
+    
+                    </div>
+                </div>
+              
+    
+          </div>
+         
+          <div class="bk">
+           <div class="edu"> <h1>Education</h1></div>
+
+            <div class="bl">
+                <h4>2017Sep-2020 April</h4>
+                <h5>MCA</h5>
+                <p>From centre for Computer Science and Information Technology Vatakara ,University of calicut.CGPA:6.84.</p>
+
+            </div>
+            <div> <h1>Experiance</h1></div>
+             <div class="bl" id="bi">
+                <h3>MEARN Stack Developer </h3>
+                <h5>Luminar Technolab</h5>
+                <p>I completed an internship as a fullstack developer at Luminar Technolab  in calicut. Throught my internship,i gained hands on experiance in developing web application.</p>
+
+            </div>
+           
+
+
+        </div>
+
+         <div class="heading">
+            <h2>Skills</h2>
+
+        </div>
+
+
+
+        <!-- skill containers -->
+        <div class="skill-container">
+            <div class="bar">
+
+                <!-- skill bar box1-->
+                <div class="bar-box">
+                    <h3>HTML</h3>
+                    <span>93%</span>
+                    <div class="light-bar"></div>
+                    <div class="percentage-bar html-bar"></div>
+
+                </div>
+                <!-- bar box2 -->
+
+                <div class="bar-box">
+                    <h3>css</h3>
+                    <span>90%</span>
+                    <div class="light-bar"></div>
+                    <div class="percentage-bar css-bar"></div>
+
+                </div>
+                <!-- bar-box3 -->
+
+                <div class="bar-box">
+                    <h3>Js</h3>
+                    <span>87%</span>
+                    <div class="light-bar"></div>
+                    <div class="percentage-bar js-bar"></div>
+
+                </div>
+
+                <!-- bar-box4 -->
+
+                <div class="bar-box">
+                    <h3>React</h3>
+                    <span>70%</span>
+                    <div class="light-bar"></div>
+                    <div class="percentage-bar react-bar"></div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+        </section>
+       <footer class="vg-footer" id="contact-footer">
+        <div class="contact" id="contact">
+            <h1>Contact Me</h1>
+            <div class="iconDiv">
+                <!-- icon1 -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/login"> <i class="fa-brands fa-linkedin"></i></a>
+    
+    
+                </div>
+                <!-- icon2 -->
+    
+                <div class="icon">
+                    <a href="https://github.com/login"> <i class="fa-brands fa-github"></i></a>
+    
+    
+                </div>
+    
+                <!-- icon3 -->
+                <div class="icon">
+                    <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+    
+    
+                </div>
+                <!-- icon4 -->
+                <div class="icon">
+                    <a href="https://web.whatsapp.com/#"><i class="fa-brands fa-whatsapp"></i></a>
+    
+    
+                </div>
+                <!-- icon5 -->
+                <div class="icon">
+                    <a href="https://www.secure.instagram.com/accounts/login/"> <i
+                            class="fa-brands fa-instagram"></i></a>
+    
+    
+                </div>
+                <!-- icon6 -->
+                <div class="icon">
+    
+                    <a href="https://www.facebook.com/login.php/"> <i class="fa-brands fa-facebook"></i></a>
+    
+    
+                </div>
+            </div>
+            <p style="text-align: center; color: white;">&copy;My portfolio website 2023,all rights reserved &reg;athulya np</p>
+            
+        </div>
+        <!-- <p style="text-align: center;">&copy;My portfolio website 2023,all rights reserved &reg;athulya np</p> -->
+        <div class="uparrow">
+            <a href="#container"><i class="fa-solid fa-arrow-up fa-3x"></i></a>
+        </div>
+
+
+
+
+
+          
+           
+       </footer>
+    </div>
+
+
+</body>
+
+</html>

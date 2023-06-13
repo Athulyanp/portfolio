@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Domine:wght@400;500;600;700&family=Exo+2:ital,wght@0,100;1,100;1,200&display=swap');
+*{
+    font-family: 'Courgette', cursive;
+}
+
+
+
+body,html{
+    height: 100%;
+}
+
+
+.imageCover{
+
+    background-image: url('https://img.freepik.com/free-photo/flat-lay-desktop-with-glasses-copy-space_23-2148430800.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+
+.container{
+    /* position: absolute; */
+    margin: 20px;
+    /* width: auto; */
+}
+.topnav{
+overflow: hidden;
+margin-left: 900px;
+
+
+
+
+}
+.topnav a{
+
+ 
+    text-decoration: none;
+    font-size: 18px;
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+ 
+}
+.topnav a:hover{
+
+
+    background-color: brown;
+    color: black;
+
+}
+.title{
+    margin-left: 10%;
+    margin-top: 13%;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+
+}
+.title h1{
+    color:maroon;
+    margin-left: 130px;
+}
+.title h2{
+    color:black;
+    margin-left: 120px;
+}
+.title h5{
+    color:black;
+    margin-left: 140px;
+}
+.title p{
+    color:black;
+    margin-left: 40px;
+}
+
+
+
+
+
+     .logo{
+        width: 100px;
+        background-color: wheat;
+        padding-top: 0px;
+        border-radius: 100%;
+    }
+
+    .heading h1{
+       text-align: center;
+       padding: 10px;
+       margin-bottom: -100px;
+    
+ 
+    }
+    
+    /* .about img{
+       margin-left: 500px;
+
+    } */
+    #about{
+        margin-right: 8%;
+        margin-left: 8%;
+        margin-top: 13%;
+      
+
+       
+    }
+    
+    .aboutContent{
+
+        display: grid;
+        /* two colomns in one frame */
+        grid-template-columns: repeat(2,1fr); 
+        gap: 16px;
+        margin-top: 5rem;
+
+       
+    }
+    .about-text{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: justify;
+        opacity: 0;
+        animation: slideRight 1s ease forwards;
+    }
+    .img{
+        animation: zoomIn 1s ease forwards;
+        animation-delay: 2s ;
+       
+    }
+    .information{
+        margin: 1rem 0 1.4rem ;
+    }
+    .information .info-box{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .information .info-box span{
+        font-weight: 400;
+        margin-left: 10px;
+    }
+    .cvv a{
+        text-decoration: none;
+        background-color: aqua;
+        border-radius: 4px;
+        font-weight: bold;
+        padding: 10px 18px;
+       
+    }
+
+
+    .bk{
+        width: 100%;
+        height: 700px; 
+        background-color: white;
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+        opacity: 0;
+        animation: slideRight 1s ease forwards;
+    }
+    
+    .bl{
+        width: 300px;
+        height: 200px;
+        border: 2px solid;
+        background-color:aqua;
+        padding: 10px;
+        border-radius: 4%;
+      
+    }
+    .contact{
+        background: black;
+        width: 100%;
+        height: 400px;
+    }
+    .contact h1{
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    .vg-footer{
+        padding: 50px 0;
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .icon{
+        width: 50px;
+        height: 50px;
+        border: 2px solid;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+        background-color:white;
+        margin-top: 2rem;
+        color: black;
+        
+    }
+    .iconDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         margin-top: 5%;
+        
+    }
+    
+   
+    .icon i{
+        font-size: 20px;
+    }
+
+
+
+    .icon:hover{
+        background-image: linear-gradient(red, yellow);
+        /* background color */
+    
+    }
+    .icon i :hover{
+        color: aliceblue;
+    }
+    footer{
+        margin-top: 2rem;
+        font-weight: bold;
+    
+    }
+    .uparrow{
+        margin: 1rem,2rem;
+        float: right;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+
+    @keyframes slideRight {
+        0%{
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+         100%{
+            transform: translateX(0);
+            opacity: 1;
+    
+            
+        }
+    }
+    @keyframes zoomIn {
+        0%{
+            transform: scale(0);
+            opacity: 0;
+        }
+         100%{
+            transform: scale(1);
+            opacity: 1;
+         }
+        }
+
+
+
+        .heading{
+            text-align: center;
+        }
+        .skill-container{
+            width: 50%;
+           margin-left: 300px;
+           
+          
+        }
+
+
+        .bar-box{
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            margin-bottom: 1rem;
+        }
+        .bar-box span{
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        .light-bar{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 0.5rem;
+            background-color: gray;
+            border-radius: 0.5rem;
+        
+        }
+        .percentage-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 0.5rem;
+            background-color: aqua;
+            border-radius: 0.5rem;
+        
+        }
+        .html-bar{
+            width: 93%;
+        
+        }
+        .css-bar{
+            width: 93%;
+            
+        }
+        .js-bar{
+            width: 87%;
+            
+        }
+        .react-bar{
+            width: 70%;
+            
+        }
+    
